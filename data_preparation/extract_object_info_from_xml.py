@@ -5,7 +5,7 @@ import pandas as pd
 from xml.etree import ElementTree as et
 from functools import reduce
 
-xml_list = glob("1_datapreparation/data_images/*.xml")
+xml_list = glob("datapreparation/data_images/*.xml")
 
 
 def extract_text(filename):
