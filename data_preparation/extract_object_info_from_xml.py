@@ -1,4 +1,5 @@
 import os
+from fileinput import filename
 from shutil import move
 from glob import glob
 import pandas as pd
@@ -6,7 +7,7 @@ from xml.etree import ElementTree as et
 from functools import reduce
 
 
-xml_list = glob("data_images/*.xml")
+xml_list = glob("data_images/annotations/*.xml")
 
 def extract_text(filename):
     """
@@ -121,6 +122,47 @@ def label_encoding(label):
         print(f"Label '{label}' not found in label encoding dictionary. Assigning -1.")
         return -1
 
+def save_data(filename, folder_path, groupby_obj):
+    """
+    Moves an image file and its corresponding label file to a specified directory.
+
+    This function performs the following operations:
+    1. Moves the image file from the "data_images" directory to the provided `folder_path`.
+    2. Retrieves the associated label data from the `groupby_obj` (a pandas GroupBy object).
+    3. Saves the label data as a `.txt` file in the `folder_path` with the same base name as the image.
+
+    Parameters
+    ----------
+    filename : str
+        The name of the image file to be moved (e.g., 'image1.jpg').
+    folder_path : str
+        The destination directory where the image and label files will be moved.
+    groupby_obj : pandas.core.groupby.generic.DataFrameGroupBy
+        A pandas GroupBy object that groups the data by 'filename'. It is used to retrieve
+        the label data corresponding to the given `filename`.
+
+    Returns
+    -------
+    None
+
+    Raises
+    ------
+    FileNotFoundError
+        If the source image or label file does not exist.
+    Exception
+        If an error occurs during the file move or label file saving process.
+    """
+    src = os.path.join("data_images", filename)
+    dst = os.path.join(folder_path, filename)
+    move(src, dst)
+
+    text_filename = os.path.join(
+        folder_path,
+        os.path.splitext(filename)[0] + ".txt"
+    )
+    groupby_obj.get_group(filename).set_index("filename").to_csv(
+        text_filename, sep=" ", index=False, header=False
+    )
 
 parser_all = list(map(extract_text, xml_list))
 try:
@@ -128,13 +170,10 @@ try:
 except TypeError as e:
     print(f"Error during list flattening with reduce: {e}")
     data = []
-print(f"Total parsed objects: {len(data)}")
-print(f"Data: {data}")
 
 if data:
     try:
         df = pd.DataFrame(data, columns=["filename", "width", "height", "name", "xmin", "xmax", "ymin", "ymax"])
-        print("DataFrame created successfully.")
     except Exception as e:
         print(f"Error creating DataFrame: {e}")
         df = pd.DataFrame(columns=["filename", "width", "height", "name", "xmin", "xmax", "ymin", "ymax"])
@@ -158,8 +197,6 @@ if not df.empty:
         print(f"Division by zero error during coordinate calculations: {zde}")
         df['center_x'] = df['center_y'] = df['w'] = df['h'] = 0
 
-    unique_images = len(df['filename'].unique())
-    print(f"Number of unique images: {unique_images}")
 else:
     print("DataFrame is empty. No calculations performed.")
 
@@ -170,8 +207,6 @@ if not df.empty:
     img_train = tuple(img_df.sample(frac=0.8, random_state=42)['filename'])
     img_test = tuple(img_df.query('filename not in @img_train')['filename'])
 
-    print(f"Number of training images: {len(img_train)}")
-    print(f"Number of testing images: {len(img_test)}")
 else:
     img_train = ()
     img_test = ()
@@ -197,3 +232,8 @@ cols = ['filename', 'id', 'center_x', 'center_y', 'w', 'h']
 
 groupby_obj_train = train_df[cols].groupby('filename')
 groupby_obj_test = test_df[cols].groupby('filename')
+
+filename_series_train = pd.Series(groupby_obj_train.groups.keys())
+filename_series_train.apply(save_data, args=(train_folder, groupby_obj_train))
+filename_series_test = pd.Series(groupby_obj_test.groups.keys())
+filename_series_test.apply(save_data, args=(test_folder, groupby_obj_test))
