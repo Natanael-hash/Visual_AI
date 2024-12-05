@@ -1,11 +1,20 @@
 import os
-from fileinput import filename
 from shutil import move
 from glob import glob
 import pandas as pd
 from xml.etree import ElementTree as et
 from functools import reduce
+import logging
 
+# Configure the logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("data_processing.log"),
+        logging.StreamHandler()
+    ]
+)
 
 xml_list = glob("data_images/annotations/*.xml")
 
@@ -33,15 +42,14 @@ def extract_text(filename):
         tree = et.parse(filename)
         root = tree.getroot()
     except et.ParseError as e:
-        print(f"Error parsing XML file {filename}: {e}")
+        logging.error(f"Error parsing XML file {filename}: {e}")
         return []
     except FileNotFoundError:
-        print(f"The file {filename} was not found.")
+        logging.error(f"The file {filename} was not found.")
         return []
     except Exception as e:
-        print(f"An unexpected error occurred while processing {filename}: {e}")
+        logging.error(f"An unexpected error occurred while processing {filename}: {e}")
         return []
-
 
     filename_element = root.find("filename")
     image_name = filename_element.text if filename_element is not None else "Unknown"
@@ -54,10 +62,10 @@ def extract_text(filename):
             width = int(width_element.text) if width_element is not None else 0
             height = int(height_element.text) if height_element is not None else 0
         except ValueError:
-            print(f"Invalid width or height in {filename}. Setting width and height to 0.")
+            logging.warning(f"Invalid width or height in {filename}. Setting width and height to 0.")
             width = height = 0
     else:
-        print(f"Size information missing in {filename}. Setting width and height to 0.")
+        logging.warning(f"Size information missing in {filename}. Setting width and height to 0.")
         width = height = 0
 
     objects = root.findall("object")
@@ -80,10 +88,10 @@ def extract_text(filename):
                 ymin = int(ymin_element.text) if ymin_element is not None else 0
                 ymax = int(ymax_element.text) if ymax_element is not None else 0
             except ValueError:
-                print(f"Invalid bounding box coordinates in {filename}. Setting coordinates to 0.")
+                logging.warning(f"Invalid bounding box coordinates in {filename}. Setting coordinates to 0.")
                 xmin = xmax = ymin = ymax = 0
         else:
-            print(f"Bounding box information missing for an object in {filename}. Setting coordinates to 0.")
+            logging.warning(f"Bounding box information missing for an object in {filename}. Setting coordinates to 0.")
             xmin = xmax = ymin = ymax = 0
 
         parser.append([image_name, width, height, name, xmin, xmax, ymin, ymax])
@@ -119,8 +127,9 @@ def label_encoding(label):
     try:
         return labels[label]
     except KeyError:
-        print(f"Label '{label}' not found in label encoding dictionary. Assigning -1.")
+        logging.warning(f"Label '{label}' not found in label encoding dictionary. Assigning -1.")
         return -1
+
 
 def save_data(filename, folder_path, groupby_obj):
     """
@@ -156,12 +165,12 @@ def save_data(filename, folder_path, groupby_obj):
         src = os.path.join("data_images", filename)
         dst = os.path.join(folder_path, filename)
         move(src, dst)
-        print(f"Moved image: {src} to {dst}")
+        logging.info(f"Moved image: {src} to {dst}")
     except FileNotFoundError as e:
-        print(f"File not found while moving image: {e}")
+        logging.error(f"File not found while moving image: {e}")
         return
     except Exception as e:
-        print(f"Error moving image {filename}: {e}")
+        logging.error(f"Error moving image {filename}: {e}")
         return
 
     try:
@@ -171,42 +180,44 @@ def save_data(filename, folder_path, groupby_obj):
         )
         group = groupby_obj.get_group(filename)
         if group.empty:
-            print(f"No label data found for {filename}.")
+            logging.warning(f"No label data found for {filename}.")
             return
         group.set_index("filename").to_csv(
             text_filename, sep=" ", index=False, header=False
         )
-        print(f"Saved label file: {text_filename}")
+        logging.info(f"Saved label file: {text_filename}")
     except KeyError:
-        print(f"Label data for {filename} not found in the groupby object.")
+        logging.error(f"Label data for {filename} not found in the groupby object.")
     except Exception as e:
-        print(f"Error saving label file for {filename}: {e}")
+        logging.error(f"Error saving label file for {filename}: {e}")
 
 
+# Extract and parse all XML files
 parser_all = list(map(extract_text, xml_list))
 try:
     data = reduce(lambda x, y: x + y, parser_all, [])
 except TypeError as e:
-    print(f"Error during list flattening with reduce: {e}")
+    logging.error(f"Error during list flattening with reduce: {e}")
     data = []
 
+# Create DataFrame from parsed data
 if data:
     try:
         df = pd.DataFrame(data, columns=["filename", "width", "height", "name", "xmin", "xmax", "ymin", "ymax"])
-        print("DataFrame created successfully.")
+        logging.info("DataFrame created successfully.")
     except Exception as e:
-        print(f"Error creating DataFrame: {e}")
+        logging.error(f"Error creating DataFrame: {e}")
         df = pd.DataFrame(columns=["filename", "width", "height", "name", "xmin", "xmax", "ymin", "ymax"])
 else:
     df = pd.DataFrame(columns=["filename", "width", "height", "name", "xmin", "xmax", "ymin", "ymax"])
-    print("No data to create DataFrame.")
+    logging.warning("No data to create DataFrame.")
 
 cols = ['width', 'height', 'xmin', 'xmax', 'ymin', 'ymax']
 if not df.empty:
     try:
         df[cols] = df[cols].astype(int)
     except ValueError as ve:
-        print(f"Error converting columns to int: {ve}")
+        logging.error(f"Error converting columns to int: {ve}")
 
     try:
         df['center_x'] = ((df['xmin'] + df['xmax']) / 2) / df['width']
@@ -214,12 +225,13 @@ if not df.empty:
         df['w'] = (df['xmax'] - df['xmin']) / df['width']
         df['h'] = (df['ymax'] - df['ymin']) / df['height']
     except ZeroDivisionError as zde:
-        print(f"Division by zero error during coordinate calculations: {zde}")
+        logging.error(f"Division by zero error during coordinate calculations: {zde}")
         df['center_x'] = df['center_y'] = df['w'] = df['h'] = 0
 
 else:
-    print("DataFrame is empty. No calculations performed.")
+    logging.warning("DataFrame is empty. No calculations performed.")
 
+# Split the data into training and testing sets
 if not df.empty:
     images = df['filename'].unique()
     img_df = pd.DataFrame(images, columns=['filename'])
@@ -227,43 +239,47 @@ if not df.empty:
     try:
         img_train = tuple(img_df.sample(frac=0.8, random_state=42)['filename'])
         img_test = tuple(img_df.query('filename not in @img_train')['filename'])
-        print(f"Number of training images: {len(img_train)}")
-        print(f"Number of testing images: {len(img_test)}")
+        logging.info(f"Number of training images: {len(img_train)}")
+        logging.info(f"Number of testing images: {len(img_test)}")
     except Exception as e:
-        print(f"Error during train-test split: {e}")
+        logging.error(f"Error during train-test split: {e}")
         img_train = ()
         img_test = ()
 else:
     img_train = ()
     img_test = ()
-    print("No images available for training and testing splits.")
+    logging.warning("No images available for training and testing splits.")
 
+# Filter the DataFrame for training and testing sets
 try:
     train_df = df[df['filename'].isin(img_train)].copy()
     test_df = df[df['filename'].isin(img_test)].copy()
 except Exception as e:
-    print(f"Error filtering DataFrame for train and test sets: {e}")
+    logging.error(f"Error filtering DataFrame for train and test sets: {e}")
     train_df = pd.DataFrame(columns=df.columns)
     test_df = pd.DataFrame(columns=df.columns)
 
+# Apply label encoding
 try:
     train_df["id"] = train_df["name"].apply(label_encoding)
     test_df["id"] = test_df["name"].apply(label_encoding)
 except Exception as e:
-    print(f"Error during label encoding: {e}")
+    logging.error(f"Error during label encoding: {e}")
 
 train_folder = "data_images/train"
 test_folder = "data_images/test"
 
+# Create training and testing directories
 for folder in [train_folder, test_folder]:
     try:
         os.makedirs(folder, exist_ok=True)
-        print(f"Directory '{folder}' created or already exists.")
+        logging.info(f"Directory '{folder}' created or already exists.")
     except Exception as e:
-        print(f"Error creating directory '{folder}': {e}")
+        logging.error(f"Error creating directory '{folder}': {e}")
 
 cols = ['filename', 'id', 'center_x', 'center_y', 'w', 'h']
 
+# Group the training and testing DataFrames by 'filename'
 if not train_df.empty:
     groupby_obj_train = train_df[cols].groupby('filename')
 else:
@@ -276,5 +292,9 @@ else:
 
 filename_series_train = pd.Series(groupby_obj_train.groups.keys())
 filename_series_test = pd.Series(groupby_obj_test.groups.keys())
+
+# Applying save_data with logging inside the function ensures individual errors are handled
 filename_series_train.apply(save_data, args=(train_folder, groupby_obj_train))
 filename_series_test.apply(save_data, args=(test_folder, groupby_obj_test))
+
+logging.info("Dataset split into train and test sets successfully.")
