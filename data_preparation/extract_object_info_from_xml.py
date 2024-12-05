@@ -152,17 +152,36 @@ def save_data(filename, folder_path, groupby_obj):
     Exception
         If an error occurs during the file move or label file saving process.
     """
-    src = os.path.join("data_images", filename)
-    dst = os.path.join(folder_path, filename)
-    move(src, dst)
+    try:
+        src = os.path.join("data_images", filename)
+        dst = os.path.join(folder_path, filename)
+        move(src, dst)
+        print(f"Moved image: {src} to {dst}")
+    except FileNotFoundError as e:
+        print(f"File not found while moving image: {e}")
+        return
+    except Exception as e:
+        print(f"Error moving image {filename}: {e}")
+        return
 
-    text_filename = os.path.join(
-        folder_path,
-        os.path.splitext(filename)[0] + ".txt"
-    )
-    groupby_obj.get_group(filename).set_index("filename").to_csv(
-        text_filename, sep=" ", index=False, header=False
-    )
+    try:
+        text_filename = os.path.join(
+            folder_path,
+            os.path.splitext(filename)[0] + ".txt"
+        )
+        group = groupby_obj.get_group(filename)
+        if group.empty:
+            print(f"No label data found for {filename}.")
+            return
+        group.set_index("filename").to_csv(
+            text_filename, sep=" ", index=False, header=False
+        )
+        print(f"Saved label file: {text_filename}")
+    except KeyError:
+        print(f"Label data for {filename} not found in the groupby object.")
+    except Exception as e:
+        print(f"Error saving label file for {filename}: {e}")
+
 
 parser_all = list(map(extract_text, xml_list))
 try:
@@ -174,6 +193,7 @@ except TypeError as e:
 if data:
     try:
         df = pd.DataFrame(data, columns=["filename", "width", "height", "name", "xmin", "xmax", "ymin", "ymax"])
+        print("DataFrame created successfully.")
     except Exception as e:
         print(f"Error creating DataFrame: {e}")
         df = pd.DataFrame(columns=["filename", "width", "height", "name", "xmin", "xmax", "ymin", "ymax"])
@@ -204,19 +224,33 @@ if not df.empty:
     images = df['filename'].unique()
     img_df = pd.DataFrame(images, columns=['filename'])
 
-    img_train = tuple(img_df.sample(frac=0.8, random_state=42)['filename'])
-    img_test = tuple(img_df.query('filename not in @img_train')['filename'])
-
+    try:
+        img_train = tuple(img_df.sample(frac=0.8, random_state=42)['filename'])
+        img_test = tuple(img_df.query('filename not in @img_train')['filename'])
+        print(f"Number of training images: {len(img_train)}")
+        print(f"Number of testing images: {len(img_test)}")
+    except Exception as e:
+        print(f"Error during train-test split: {e}")
+        img_train = ()
+        img_test = ()
 else:
     img_train = ()
     img_test = ()
     print("No images available for training and testing splits.")
 
-train_df = df[df['filename'].isin(img_train)].copy()
-test_df = df[df['filename'].isin(img_test)].copy()
+try:
+    train_df = df[df['filename'].isin(img_train)].copy()
+    test_df = df[df['filename'].isin(img_test)].copy()
+except Exception as e:
+    print(f"Error filtering DataFrame for train and test sets: {e}")
+    train_df = pd.DataFrame(columns=df.columns)
+    test_df = pd.DataFrame(columns=df.columns)
 
-train_df["id"] = train_df["name"].apply(label_encoding)
-test_df["id"] = test_df["name"].apply(label_encoding)
+try:
+    train_df["id"] = train_df["name"].apply(label_encoding)
+    test_df["id"] = test_df["name"].apply(label_encoding)
+except Exception as e:
+    print(f"Error during label encoding: {e}")
 
 train_folder = "data_images/train"
 test_folder = "data_images/test"
@@ -230,10 +264,17 @@ for folder in [train_folder, test_folder]:
 
 cols = ['filename', 'id', 'center_x', 'center_y', 'w', 'h']
 
-groupby_obj_train = train_df[cols].groupby('filename')
-groupby_obj_test = test_df[cols].groupby('filename')
+if not train_df.empty:
+    groupby_obj_train = train_df[cols].groupby('filename')
+else:
+    groupby_obj_train = pd.DataFrame().groupby('filename')
+
+if not test_df.empty:
+    groupby_obj_test = test_df[cols].groupby('filename')
+else:
+    groupby_obj_test = pd.DataFrame().groupby('filename')
 
 filename_series_train = pd.Series(groupby_obj_train.groups.keys())
-filename_series_train.apply(save_data, args=(train_folder, groupby_obj_train))
 filename_series_test = pd.Series(groupby_obj_test.groups.keys())
+filename_series_train.apply(save_data, args=(train_folder, groupby_obj_train))
 filename_series_test.apply(save_data, args=(test_folder, groupby_obj_test))
