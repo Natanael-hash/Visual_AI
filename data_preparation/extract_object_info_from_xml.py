@@ -6,7 +6,6 @@ from xml.etree import ElementTree as et
 from functools import reduce
 import logging
 
-# Configure the logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -192,7 +191,6 @@ def save_data(filename, folder_path, groupby_obj):
         logging.error(f"Error saving label file for {filename}: {e}")
 
 
-# Extract and parse all XML files
 parser_all = list(map(extract_text, xml_list))
 try:
     data = reduce(lambda x, y: x + y, parser_all, [])
@@ -200,7 +198,6 @@ except TypeError as e:
     logging.error(f"Error during list flattening with reduce: {e}")
     data = []
 
-# Create DataFrame from parsed data
 if data:
     try:
         df = pd.DataFrame(data, columns=["filename", "width", "height", "name", "xmin", "xmax", "ymin", "ymax"])
@@ -231,7 +228,6 @@ if not df.empty:
 else:
     logging.warning("DataFrame is empty. No calculations performed.")
 
-# Split the data into training and testing sets
 if not df.empty:
     images = df['filename'].unique()
     img_df = pd.DataFrame(images, columns=['filename'])
@@ -250,7 +246,6 @@ else:
     img_test = ()
     logging.warning("No images available for training and testing splits.")
 
-# Filter the DataFrame for training and testing sets
 try:
     train_df = df[df['filename'].isin(img_train)].copy()
     test_df = df[df['filename'].isin(img_test)].copy()
@@ -259,7 +254,6 @@ except Exception as e:
     train_df = pd.DataFrame(columns=df.columns)
     test_df = pd.DataFrame(columns=df.columns)
 
-# Apply label encoding
 try:
     train_df["id"] = train_df["name"].apply(label_encoding)
     test_df["id"] = test_df["name"].apply(label_encoding)
@@ -269,7 +263,6 @@ except Exception as e:
 train_folder = "data_images/train"
 test_folder = "data_images/test"
 
-# Create training and testing directories
 for folder in [train_folder, test_folder]:
     try:
         os.makedirs(folder, exist_ok=True)
@@ -279,7 +272,6 @@ for folder in [train_folder, test_folder]:
 
 cols = ['filename', 'id', 'center_x', 'center_y', 'w', 'h']
 
-# Group the training and testing DataFrames by 'filename'
 if not train_df.empty:
     groupby_obj_train = train_df[cols].groupby('filename')
 else:
@@ -292,8 +284,6 @@ else:
 
 filename_series_train = pd.Series(groupby_obj_train.groups.keys())
 filename_series_test = pd.Series(groupby_obj_test.groups.keys())
-
-# Applying save_data with logging inside the function ensures individual errors are handled
 filename_series_train.apply(save_data, args=(train_folder, groupby_obj_train))
 filename_series_test.apply(save_data, args=(test_folder, groupby_obj_test))
 
