@@ -1,6 +1,6 @@
 train: data_images/train
 val: data_images/test
-nc: 20
+nc: 21
 names: ['person',
         'car',
         'chair',
@@ -20,5 +20,6 @@ names: ['person',
         'aeroplane',
         'train',
         'diningtable',
-        'bus'
+        'bus',
+        'cup'
 ]

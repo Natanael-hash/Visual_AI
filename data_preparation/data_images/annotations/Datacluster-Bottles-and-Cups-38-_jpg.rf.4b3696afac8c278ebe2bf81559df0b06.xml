@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Datacluster-Bottles-and-Cups-38-_jpg.rf.4b3696afac8c278ebe2bf81559df0b06.jpg</filename>
+	<path>Datacluster-Bottles-and-Cups-38-_jpg.rf.4b3696afac8c278ebe2bf81559df0b06.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>225</xmin>
+			<xmax>332</xmax>
+			<ymin>22</ymin>
+			<ymax>417</ymax>
+		</bndbox>
+	</object>
+</annotation>
