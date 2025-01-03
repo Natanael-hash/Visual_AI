@@ -22,5 +22,7 @@ names: ['person',
         'diningtable',
         'bus',
         'cup',
-        'truck'
+        'truck',
+        'carrot',
+        'potato'
 ]

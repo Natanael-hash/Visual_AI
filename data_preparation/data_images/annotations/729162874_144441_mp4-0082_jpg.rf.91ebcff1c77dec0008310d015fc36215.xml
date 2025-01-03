@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>729162874_144441_mp4-0082_jpg.rf.91ebcff1c77dec0008310d015fc36215.jpg</filename>
+	<path>729162874_144441_mp4-0082_jpg.rf.91ebcff1c77dec0008310d015fc36215.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>carrot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>127</xmin>
+			<xmax>280</xmax>
+			<ymin>166</ymin>
+			<ymax>553</ymax>
+		</bndbox>
+	</object>
+</annotation>
