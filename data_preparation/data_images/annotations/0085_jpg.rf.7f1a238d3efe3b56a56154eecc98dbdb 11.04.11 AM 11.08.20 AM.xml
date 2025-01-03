@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>0085_jpg.rf.7f1a238d3efe3b56a56154eecc98dbdb.jpg</filename>
+	<path>0085_jpg.rf.7f1a238d3efe3b56a56154eecc98dbdb.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>224</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>brocoli</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>8</xmin>
+			<xmax>126</xmax>
+			<ymin>14</ymin>
+			<ymax>141</ymax>
+		</bndbox>
+	</object>
+</annotation>

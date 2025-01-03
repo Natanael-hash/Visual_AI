@@ -122,7 +122,7 @@ def label_encoding(label):
         'dog': 6, 'sofa': 7, 'bicycle': 8, 'horse': 9, 'boat': 10, 'motorbike': 11,
         'cat': 12, 'tvmonitor': 13, 'cow': 14, 'sheep': 15, 'aeroplane': 16,
         'train': 17, 'diningtable': 18, 'bus': 19, 'cup':20, 'truck':21, 'carrot':22,
-        'potato':23
+        'potato':23, 'brocoli':24
     }
     try:
         return labels[label]
