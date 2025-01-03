@@ -21,5 +21,6 @@ names: ['person',
         'train',
         'diningtable',
         'bus',
-        'cup'
+        'cup',
+        'truck'
 ]
