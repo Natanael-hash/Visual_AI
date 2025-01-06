@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>5-51-unisex-blue-black-graphic-print-backpack-13-38-9377255-original-imaghe6u7cwbbz8v_jpeg.rf.46dc08d094c9303268c20886928ce9de.jpg</filename>
+	<path>5-51-unisex-blue-black-graphic-print-backpack-13-38-9377255-original-imaghe6u7cwbbz8v_jpeg.rf.46dc08d094c9303268c20886928ce9de.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>backpack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>10</xmin>
+			<xmax>638</xmax>
+			<ymin>7</ymin>
+			<ymax>634</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>368-3683057_backpack-walking-people-png-png-download-back-pack_png.rf.072e160b1f255c1cc99ce8be408a6c63.jpg</filename>
+	<path>368-3683057_backpack-walking-people-png-png-download-back-pack_png.rf.072e160b1f255c1cc99ce8be408a6c63.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>backpack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>207</xmin>
+			<xmax>372</xmax>
+			<ymin>91</ymin>
+			<ymax>323</ymax>
+		</bndbox>
+	</object>
+</annotation>

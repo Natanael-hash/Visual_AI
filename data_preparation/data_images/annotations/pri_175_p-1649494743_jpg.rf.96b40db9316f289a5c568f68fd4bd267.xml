@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>pri_175_p-1649494743_jpg.rf.96b40db9316f289a5c568f68fd4bd267.jpg</filename>
+	<path>pri_175_p-1649494743_jpg.rf.96b40db9316f289a5c568f68fd4bd267.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>backpack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>119</xmin>
+			<xmax>622</xmax>
+			<ymin>95</ymin>
+			<ymax>542</ymax>
+		</bndbox>
+	</object>
+</annotation>

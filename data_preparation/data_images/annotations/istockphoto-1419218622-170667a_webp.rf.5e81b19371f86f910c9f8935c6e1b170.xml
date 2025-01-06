@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>istockphoto-1419218622-170667a_webp.rf.5e81b19371f86f910c9f8935c6e1b170.jpg</filename>
+	<path>istockphoto-1419218622-170667a_webp.rf.5e81b19371f86f910c9f8935c6e1b170.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>backpack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>169</xmin>
+			<xmax>409</xmax>
+			<ymin>172</ymin>
+			<ymax>306</ymax>
+		</bndbox>
+	</object>
+</annotation>

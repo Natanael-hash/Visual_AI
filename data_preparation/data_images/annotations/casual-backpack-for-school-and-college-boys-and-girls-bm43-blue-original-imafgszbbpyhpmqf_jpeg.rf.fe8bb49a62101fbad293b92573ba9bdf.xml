@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>casual-backpack-for-school-and-college-boys-and-girls-bm43-blue-original-imafgszbbpyhpmqf_jpeg.rf.fe8bb49a62101fbad293b92573ba9bdf.jpg</filename>
+	<path>casual-backpack-for-school-and-college-boys-and-girls-bm43-blue-original-imafgszbbpyhpmqf_jpeg.rf.fe8bb49a62101fbad293b92573ba9bdf.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>backpack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>639</xmax>
+			<ymin>7</ymin>
+			<ymax>640</ymax>
+		</bndbox>
+	</object>
+</annotation>

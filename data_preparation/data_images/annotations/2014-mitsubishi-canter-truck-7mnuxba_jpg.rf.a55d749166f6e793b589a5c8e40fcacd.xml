@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>2014-mitsubishi-canter-truck-7mnuxba_jpg.rf.a55d749166f6e793b589a5c8e40fcacd.jpg</filename>
+	<path>2014-mitsubishi-canter-truck-7mnuxba_jpg.rf.a55d749166f6e793b589a5c8e40fcacd.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>391</xmin>
+			<xmax>641</xmax>
+			<ymin>126</ymin>
+			<ymax>472</ymax>
+		</bndbox>
+	</object>
+</annotation>

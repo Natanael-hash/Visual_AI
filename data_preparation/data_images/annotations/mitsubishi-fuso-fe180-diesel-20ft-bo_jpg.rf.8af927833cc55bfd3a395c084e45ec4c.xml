@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>mitsubishi-fuso-fe180-diesel-20ft-bo_jpg.rf.8af927833cc55bfd3a395c084e45ec4c.jpg</filename>
+	<path>mitsubishi-fuso-fe180-diesel-20ft-bo_jpg.rf.8af927833cc55bfd3a395c084e45ec4c.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>37</xmin>
+			<xmax>352</xmax>
+			<ymin>187</ymin>
+			<ymax>598</ymax>
+		</bndbox>
+	</object>
+</annotation>

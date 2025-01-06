@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Wesbite_36_2000x_jpg.rf.afcd764f8669a5a5f537e3d9718023a9.jpg</filename>
+	<path>Wesbite_36_2000x_jpg.rf.afcd764f8669a5a5f537e3d9718023a9.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>backpack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>21</xmin>
+			<xmax>214</xmax>
+			<ymin>212</ymin>
+			<ymax>390</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>-10-l-bm65_texturednavy-product-images-orvsnfikdxk-p590947419-0-202112142050_jpg.rf.e611596577314a484c3dbfdb2ad61be8.jpg</filename>
+	<path>-10-l-bm65_texturednavy-product-images-orvsnfikdxk-p590947419-0-202112142050_jpg.rf.e611596577314a484c3dbfdb2ad61be8.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>backpack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>46</xmin>
+			<xmax>594</xmax>
+			<ymin>162</ymin>
+			<ymax>492</ymax>
+		</bndbox>
+	</object>
+</annotation>

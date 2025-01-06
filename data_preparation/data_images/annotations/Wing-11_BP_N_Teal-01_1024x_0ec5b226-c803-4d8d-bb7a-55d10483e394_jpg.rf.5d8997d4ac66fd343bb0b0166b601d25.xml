@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Wing-11_BP_N_Teal-01_1024x_0ec5b226-c803-4d8d-bb7a-55d10483e394_jpg.rf.5d8997d4ac66fd343bb0b0166b601d25.jpg</filename>
+	<path>Wing-11_BP_N_Teal-01_1024x_0ec5b226-c803-4d8d-bb7a-55d10483e394_jpg.rf.5d8997d4ac66fd343bb0b0166b601d25.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>backpack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>81</xmin>
+			<xmax>582</xmax>
+			<ymin>142</ymin>
+			<ymax>476</ymax>
+		</bndbox>
+	</object>
+</annotation>

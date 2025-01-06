@@ -1,0 +1,19 @@
+<annotation>
+	<folder></folder>
+	<filename>71qpXciYP1L-_SL1200__jpg.rf.019635b11b4fd02fbcb813a58cd91779.jpg</filename>
+	<path>71qpXciYP1L-_SL1200__jpg.rf.019635b11b4fd02fbcb813a58cd91779.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<metadata>
+		<tags>
+			<tag>backpack</tag>
+		</tags>
+	</metadata>
+</annotation>

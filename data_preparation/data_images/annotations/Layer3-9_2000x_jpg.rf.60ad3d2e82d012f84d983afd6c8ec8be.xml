@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Layer3-9_2000x_jpg.rf.60ad3d2e82d012f84d983afd6c8ec8be.jpg</filename>
+	<path>Layer3-9_2000x_jpg.rf.60ad3d2e82d012f84d983afd6c8ec8be.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>backpack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>41</xmin>
+			<xmax>517</xmax>
+			<ymin>45</ymin>
+			<ymax>573</ymax>
+		</bndbox>
+	</object>
+</annotation>
