@@ -35,14 +35,14 @@ An AI-driven application designed to assist visually impaired individuals in nav
       # by applying it to a 4K video.
       from ultralytics import YOLO
       model = YOLO("best.pt")
-      model.predict("path/to/video/or/image", save=True, imgsz=320, conf=0.5, device="mps", show=True)
+      model.predict("path/to/video/or/image", save=True, imgsz=640, conf=0.5, device="mps", show=True)
       # This script is designed for Apple Silicon MacBooks that support Metal 
       # for the integrated graphics card. It enables the use of the iPhone’s camera 
       # for real-time detection. To utilize the MacBook’s webcam, replace the first parameter (0) with 1, and the model will 
       # perform real-time detection from the laptop’s camera.
       from ultralytics import YOLO
       model = YOLO("best.pt")
-      model.predict(0, save=True, imgsz=320, conf=0.5, device="mps", show=True)
+      model.predict(0, save=True, imgsz=640, conf=0.5, device="mps", show=True)
 - **The app will identify and describe objects or obstacles in real time.**
 - **Enjoy enhanced accessibility and navigation!**
 
