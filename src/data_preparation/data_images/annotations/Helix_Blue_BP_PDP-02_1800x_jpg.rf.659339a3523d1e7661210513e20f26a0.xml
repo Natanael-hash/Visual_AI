@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Helix_Blue_BP_PDP-02_1800x_jpg.rf.659339a3523d1e7661210513e20f26a0.jpg</filename>
+	<path>Helix_Blue_BP_PDP-02_1800x_jpg.rf.659339a3523d1e7661210513e20f26a0.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>backpack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>67</xmin>
+			<xmax>597</xmax>
+			<ymin>130</ymin>
+			<ymax>504</ymax>
+		</bndbox>
+	</object>
+</annotation>

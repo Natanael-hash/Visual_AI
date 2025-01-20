@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>-t-shirt-walking-running-pattern-indian-people-miscellaneous-tshirt-backpack_png.rf.15853a4a30845f5aec5b64004d88e819.jpg</filename>
+	<path>-t-shirt-walking-running-pattern-indian-people-miscellaneous-tshirt-backpack_png.rf.15853a4a30845f5aec5b64004d88e819.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>backpack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>227</xmin>
+			<xmax>353</xmax>
+			<ymin>73</ymin>
+			<ymax>265</ymax>
+		</bndbox>
+	</object>
+</annotation>

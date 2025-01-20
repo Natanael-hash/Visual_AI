@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>3a4f8d58-8127-43b1-bf3d-2e6613eae5f81667582017513FURJADENUnisexBlackBackpack2_jpg.rf.c79004651370265535a1cde7b57023cd.jpg</filename>
+	<path>3a4f8d58-8127-43b1-bf3d-2e6613eae5f81667582017513FURJADENUnisexBlackBackpack2_jpg.rf.c79004651370265535a1cde7b57023cd.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>backpack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>117</xmin>
+			<xmax>579</xmax>
+			<ymin>110</ymin>
+			<ymax>532</ymax>
+		</bndbox>
+	</object>
+</annotation>

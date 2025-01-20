@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>85c0856d-7064-4cb0-bd72-37ff723927f51691233830925SafariUnisexTealPinkBrandLogoBackpack1_jpg.rf.b72ac848f15872eb38bd5cc981140668.jpg</filename>
+	<path>85c0856d-7064-4cb0-bd72-37ff723927f51691233830925SafariUnisexTealPinkBrandLogoBackpack1_jpg.rf.b72ac848f15872eb38bd5cc981140668.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>backpack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>86</xmin>
+			<xmax>509</xmax>
+			<ymin>80</ymin>
+			<ymax>562</ymax>
+		</bndbox>
+	</object>
+</annotation>

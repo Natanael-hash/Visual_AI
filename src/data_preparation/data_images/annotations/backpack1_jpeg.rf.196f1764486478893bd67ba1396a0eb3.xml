@@ -1,0 +1,19 @@
+<annotation>
+	<folder></folder>
+	<filename>backpack1_jpeg.rf.196f1764486478893bd67ba1396a0eb3.jpg</filename>
+	<path>backpack1_jpeg.rf.196f1764486478893bd67ba1396a0eb3.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<metadata>
+		<tags>
+			<tag>backpack</tag>
+		</tags>
+	</metadata>
+</annotation>

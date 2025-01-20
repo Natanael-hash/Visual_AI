@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>images-29-_jpg.rf.13eee2d325f1166156c7f04f40d67ad8.jpg</filename>
+	<path>images-29-_jpg.rf.13eee2d325f1166156c7f04f40d67ad8.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>backpack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>74</xmin>
+			<xmax>330</xmax>
+			<ymin>35</ymin>
+			<ymax>618</ymax>
+		</bndbox>
+	</object>
+</annotation>
