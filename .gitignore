@@ -6,3 +6,4 @@ train17
 src/data_prediction/street_image.jpg
 src/data_prediction/image_1.jpg
 src/data_preparation/data_processing.log
+src/data_prediction/output_video.mp4
