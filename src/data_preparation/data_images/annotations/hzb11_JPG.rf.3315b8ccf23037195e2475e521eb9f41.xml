@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>hzb11_JPG.rf.3315b8ccf23037195e2475e521eb9f41.jpg</filename>
+	<path>hzb11_JPG.rf.3315b8ccf23037195e2475e521eb9f41.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>train</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>52</xmin>
+			<xmax>476</xmax>
+			<ymin>194</ymin>
+			<ymax>513</ymax>
+		</bndbox>
+	</object>
+</annotation>

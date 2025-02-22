@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Jual-Krisbow-50-Ltr-Tempat-Sampah-_jpg.rf.62aab1ba21082cff8a97f53dea9840a5.jpg</filename>
+	<path>Jual-Krisbow-50-Ltr-Tempat-Sampah-_jpg.rf.62aab1ba21082cff8a97f53dea9840a5.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>133</xmin>
+			<xmax>522</xmax>
+			<ymin>49</ymin>
+			<ymax>591</ymax>
+		</bndbox>
+	</object>
+</annotation>

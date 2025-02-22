@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>th-43-_jpeg_jpg.rf.177aa0c18150792f571dd8bee6b2be15.jpg</filename>
+	<path>th-43-_jpeg_jpg.rf.177aa0c18150792f571dd8bee6b2be15.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>123</xmin>
+			<xmax>468</xmax>
+			<ymin>61</ymin>
+			<ymax>540</ymax>
+		</bndbox>
+	</object>
+</annotation>

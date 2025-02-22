@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>TS20_-_01_-_Nurnberg___Regensberg_jpg.rf.144ae922eb86c036c4fa2c93519bf7b5.jpg</filename>
+	<path>TS20_-_01_-_Nurnberg___Regensberg_jpg.rf.144ae922eb86c036c4fa2c93519bf7b5.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>train</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>178</xmin>
+			<xmax>679</xmax>
+			<ymin>336</ymin>
+			<ymax>654</ymax>
+		</bndbox>
+	</object>
+</annotation>

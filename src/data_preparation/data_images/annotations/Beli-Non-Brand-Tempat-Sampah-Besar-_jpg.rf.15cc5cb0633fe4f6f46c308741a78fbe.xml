@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Beli-Non-Brand-Tempat-Sampah-Besar-_jpg.rf.15cc5cb0633fe4f6f46c308741a78fbe.jpg</filename>
+	<path>Beli-Non-Brand-Tempat-Sampah-Besar-_jpg.rf.15cc5cb0633fe4f6f46c308741a78fbe.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>134</xmin>
+			<xmax>531</xmax>
+			<ymin>11</ymin>
+			<ymax>624</ymax>
+		</bndbox>
+	</object>
+</annotation>

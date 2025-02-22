@@ -1,0 +1,40 @@
+<annotation>
+	<folder></folder>
+	<filename>Tempat-sampah-Images_-Stock-Photos-_jpg.rf.be65dbd9ebbbe9e753b6d5d579f69987.jpg</filename>
+	<path>Tempat-sampah-Images_-Stock-Photos-_jpg.rf.be65dbd9ebbbe9e753b6d5d579f69987.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>270</xmin>
+			<xmax>435</xmax>
+			<ymin>159</ymin>
+			<ymax>530</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>151</xmin>
+			<xmax>287</xmax>
+			<ymin>223</ymin>
+			<ymax>548</ymax>
+		</bndbox>
+	</object>
+</annotation>

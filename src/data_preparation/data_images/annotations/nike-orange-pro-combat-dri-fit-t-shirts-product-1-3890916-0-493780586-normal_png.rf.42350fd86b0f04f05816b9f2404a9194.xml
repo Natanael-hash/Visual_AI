@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>nike-orange-pro-combat-dri-fit-t-shirts-product-1-3890916-0-493780586-normal_png.rf.42350fd86b0f04f05816b9f2404a9194.jpg</filename>
+	<path>nike-orange-pro-combat-dri-fit-t-shirts-product-1-3890916-0-493780586-normal_png.rf.42350fd86b0f04f05816b9f2404a9194.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>traffic cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>456</xmin>
+			<xmax>632</xmax>
+			<ymin>6</ymin>
+			<ymax>219</ymax>
+		</bndbox>
+	</object>
+</annotation>

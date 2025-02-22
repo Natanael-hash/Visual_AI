@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>2009-Mitsubishi-Fighter-FM600_573533_jpg.rf.020e933be60ce9cce1dc91320aa94bdb.jpg</filename>
+	<path>2009-Mitsubishi-Fighter-FM600_573533_jpg.rf.020e933be60ce9cce1dc91320aa94bdb.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>42</xmin>
+			<xmax>596</xmax>
+			<ymin>98</ymin>
+			<ymax>550</ymax>
+		</bndbox>
+	</object>
+</annotation>

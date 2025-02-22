@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>IMG_20180821_220519_flipped_jpg.rf.1749189840104e9df436c2f8a7228a62.jpg</filename>
+	<path>IMG_20180821_220519_flipped_jpg.rf.1749189840104e9df436c2f8a7228a62.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>upstair</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>154</xmin>
+			<xmax>561</xmax>
+			<ymin>12</ymin>
+			<ymax>636</ymax>
+		</bndbox>
+	</object>
+</annotation>

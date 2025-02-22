@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Jual-TEMPAT-SAMPAH-15-LITER-GOYANG-SEGI-_jpg.rf.f3ad45ac70fee8ed58e291fd8a299604.jpg</filename>
+	<path>Jual-TEMPAT-SAMPAH-15-LITER-GOYANG-SEGI-_jpg.rf.f3ad45ac70fee8ed58e291fd8a299604.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>127</xmin>
+			<xmax>498</xmax>
+			<ymin>11</ymin>
+			<ymax>533</ymax>
+		</bndbox>
+	</object>
+</annotation>

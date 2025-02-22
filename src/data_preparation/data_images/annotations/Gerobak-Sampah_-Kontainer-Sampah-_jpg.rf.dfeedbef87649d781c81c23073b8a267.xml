@@ -1,0 +1,53 @@
+<annotation>
+	<folder></folder>
+	<filename>Gerobak-Sampah_-Kontainer-Sampah-_jpg.rf.dfeedbef87649d781c81c23073b8a267.jpg</filename>
+	<path>Gerobak-Sampah_-Kontainer-Sampah-_jpg.rf.dfeedbef87649d781c81c23073b8a267.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>67</xmin>
+			<xmax>230</xmax>
+			<ymin>246</ymin>
+			<ymax>500</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>244</xmin>
+			<xmax>377</xmax>
+			<ymin>257</ymin>
+			<ymax>497</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>395</xmin>
+			<xmax>544</xmax>
+			<ymin>261</ymin>
+			<ymax>501</ymax>
+		</bndbox>
+	</object>
+</annotation>

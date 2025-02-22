@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>T112186_jpg.rf.ea4c60da20e4c8eac9a83a8d10b6406d.jpg</filename>
+	<path>T112186_jpg.rf.ea4c60da20e4c8eac9a83a8d10b6406d.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rail</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>7</xmin>
+			<xmax>589</xmax>
+			<ymin>9</ymin>
+			<ymax>631</ymax>
+		</bndbox>
+	</object>
+</annotation>

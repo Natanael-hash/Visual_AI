@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Cutting-Sticker-Truk-Canter-Variasi-4_jpg.rf.7571868bc5f0f928a2853c67d5a44561.jpg</filename>
+	<path>Cutting-Sticker-Truk-Canter-Variasi-4_jpg.rf.7571868bc5f0f928a2853c67d5a44561.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>67</xmin>
+			<xmax>641</xmax>
+			<ymin>4</ymin>
+			<ymax>640</ymax>
+		</bndbox>
+	</object>
+</annotation>

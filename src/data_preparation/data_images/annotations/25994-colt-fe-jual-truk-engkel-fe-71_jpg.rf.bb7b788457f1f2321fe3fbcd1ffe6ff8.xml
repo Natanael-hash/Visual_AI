@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>25994-colt-fe-jual-truk-engkel-fe-71_jpg.rf.bb7b788457f1f2321fe3fbcd1ffe6ff8.jpg</filename>
+	<path>25994-colt-fe-jual-truk-engkel-fe-71_jpg.rf.bb7b788457f1f2321fe3fbcd1ffe6ff8.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>56</xmin>
+			<xmax>540</xmax>
+			<ymin>58</ymin>
+			<ymax>564</ymax>
+		</bndbox>
+	</object>
+</annotation>

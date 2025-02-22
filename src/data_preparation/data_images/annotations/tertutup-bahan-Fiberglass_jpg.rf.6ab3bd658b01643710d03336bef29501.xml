@@ -1,0 +1,40 @@
+<annotation>
+	<folder></folder>
+	<filename>tertutup-bahan-Fiberglass_jpg.rf.6ab3bd658b01643710d03336bef29501.jpg</filename>
+	<path>tertutup-bahan-Fiberglass_jpg.rf.6ab3bd658b01643710d03336bef29501.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>285</xmin>
+			<xmax>576</xmax>
+			<ymin>133</ymin>
+			<ymax>362</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>7</xmin>
+			<xmax>278</xmax>
+			<ymin>131</ymin>
+			<ymax>370</ymax>
+		</bndbox>
+	</object>
+</annotation>

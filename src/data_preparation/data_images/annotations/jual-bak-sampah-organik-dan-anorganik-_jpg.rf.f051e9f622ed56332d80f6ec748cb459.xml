@@ -1,0 +1,66 @@
+<annotation>
+	<folder></folder>
+	<filename>jual-bak-sampah-organik-dan-anorganik-_jpg.rf.f051e9f622ed56332d80f6ec748cb459.jpg</filename>
+	<path>jual-bak-sampah-organik-dan-anorganik-_jpg.rf.f051e9f622ed56332d80f6ec748cb459.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>340</xmin>
+			<xmax>445</xmax>
+			<ymin>302</ymin>
+			<ymax>535</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>494</xmin>
+			<xmax>610</xmax>
+			<ymin>269</ymin>
+			<ymax>458</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>2</xmin>
+			<xmax>165</xmax>
+			<ymin>115</ymin>
+			<ymax>481</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>30</xmin>
+			<xmax>204</xmax>
+			<ymin>434</ymin>
+			<ymax>640</ymax>
+		</bndbox>
+	</object>
+</annotation>

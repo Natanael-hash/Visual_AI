@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Garbage-Trash-Can-Waste-Rubbish-Bin-3-_jpg.rf.017fc63da06035a763b6610f3b5e2d5c.jpg</filename>
+	<path>Garbage-Trash-Can-Waste-Rubbish-Bin-3-_jpg.rf.017fc63da06035a763b6610f3b5e2d5c.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>118</xmin>
+			<xmax>527</xmax>
+			<ymin>12</ymin>
+			<ymax>591</ymax>
+		</bndbox>
+	</object>
+</annotation>

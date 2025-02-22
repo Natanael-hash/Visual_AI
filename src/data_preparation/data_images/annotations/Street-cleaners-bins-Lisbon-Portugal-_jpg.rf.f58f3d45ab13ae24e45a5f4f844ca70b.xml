@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Street-cleaners-bins-Lisbon-Portugal-_jpg.rf.f58f3d45ab13ae24e45a5f4f844ca70b.jpg</filename>
+	<path>Street-cleaners-bins-Lisbon-Portugal-_jpg.rf.f58f3d45ab13ae24e45a5f4f844ca70b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>155</xmin>
+			<xmax>397</xmax>
+			<ymin>132</ymin>
+			<ymax>468</ymax>
+		</bndbox>
+	</object>
+</annotation>

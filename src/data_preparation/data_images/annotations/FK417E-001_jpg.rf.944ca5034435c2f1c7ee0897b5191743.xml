@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>FK417E-001_jpg.rf.944ca5034435c2f1c7ee0897b5191743.jpg</filename>
+	<path>FK417E-001_jpg.rf.944ca5034435c2f1c7ee0897b5191743.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>596</xmax>
+			<ymin>1</ymin>
+			<ymax>640</ymax>
+		</bndbox>
+	</object>
+</annotation>

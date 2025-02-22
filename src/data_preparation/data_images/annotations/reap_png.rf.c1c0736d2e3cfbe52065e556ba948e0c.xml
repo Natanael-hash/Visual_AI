@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>reap_png.rf.c1c0736d2e3cfbe52065e556ba948e0c.jpg</filename>
+	<path>reap_png.rf.c1c0736d2e3cfbe52065e556ba948e0c.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>traffic cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>9</xmin>
+			<xmax>260</xmax>
+			<ymin>8</ymin>
+			<ymax>381</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>16012-colt-jual-mobil-mitsubishi-can_jpg.rf.212132c94b68b91283b202004311705d.jpg</filename>
+	<path>16012-colt-jual-mobil-mitsubishi-can_jpg.rf.212132c94b68b91283b202004311705d.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>52</xmin>
+			<xmax>640</xmax>
+			<ymin>202</ymin>
+			<ymax>567</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>2007-mitsubishi-fuso-fe-140-landscap_jpg.rf.4bfb35884821106813e38bf10f8478c9.jpg</filename>
+	<path>2007-mitsubishi-fuso-fe-140-landscap_jpg.rf.4bfb35884821106813e38bf10f8478c9.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>46</xmin>
+			<xmax>600</xmax>
+			<ymin>290</ymin>
+			<ymax>526</ymax>
+		</bndbox>
+	</object>
+</annotation>

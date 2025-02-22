@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>1986-Mitsubishi-FM_34050076-l_jpg.rf.a8a22331cf5245e3fec96cc0547c45b7.jpg</filename>
+	<path>1986-Mitsubishi-FM_34050076-l_jpg.rf.a8a22331cf5245e3fec96cc0547c45b7.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>100</xmin>
+			<xmax>620</xmax>
+			<ymin>106</ymin>
+			<ymax>479</ymax>
+		</bndbox>
+	</object>
+</annotation>

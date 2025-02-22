@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>1948_png.rf.6d055364f4e377e8f07d30bb29d02e94.jpg</filename>
+	<path>1948_png.rf.6d055364f4e377e8f07d30bb29d02e94.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pole</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>265</xmin>
+			<xmax>331</xmax>
+			<ymin>129</ymin>
+			<ymax>333</ymax>
+		</bndbox>
+	</object>
+</annotation>

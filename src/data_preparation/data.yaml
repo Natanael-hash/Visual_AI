@@ -1,32 +1,22 @@
 train: data_images/train
 val: data_images/test
-nc: 28
+nc: 18
 names: ['person',
+        'bicycle'
         'car',
-        'chair',
-        'bottle',
-        'pottedplant',
-        'bird',
-        'dog',
-        'sofa',
-        'bicycle',
-        'horse',
-        'boat',
-        'motorbike',
-        'cat',
-        'tvmonitor',
-        'cow',
-        'sheep',
-        'aeroplane',
-        'train',
-        'diningtable',
         'bus',
-        'cup',
+        'train',
+        'traffic_sign',
+        'traffic_light',
+        'traffic cone'
+        'rail',
+        'pothole',
+        'pole',
+        'downstair',
+        'upstair',
+        'curb',
         'truck',
-        'carrot',
-        'potato',
-        'brocoli',
-        'suitcase',
-        'backpack',
-        'tree'
+        'green_pedestrian_light',
+        'red_pedestrian_light',
+        'garbage container'
 ]

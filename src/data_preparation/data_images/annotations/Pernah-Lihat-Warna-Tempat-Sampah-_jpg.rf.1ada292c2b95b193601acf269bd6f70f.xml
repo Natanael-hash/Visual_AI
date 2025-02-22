@@ -1,0 +1,92 @@
+<annotation>
+	<folder></folder>
+	<filename>Pernah-Lihat-Warna-Tempat-Sampah-_jpg.rf.1ada292c2b95b193601acf269bd6f70f.jpg</filename>
+	<path>Pernah-Lihat-Warna-Tempat-Sampah-_jpg.rf.1ada292c2b95b193601acf269bd6f70f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>429</xmin>
+			<xmax>631</xmax>
+			<ymin>2</ymin>
+			<ymax>488</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>328</xmin>
+			<xmax>451</xmax>
+			<ymin>37</ymin>
+			<ymax>485</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>228</xmin>
+			<xmax>337</xmax>
+			<ymin>77</ymin>
+			<ymax>494</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>152</xmin>
+			<xmax>240</xmax>
+			<ymin>129</ymin>
+			<ymax>488</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>98</xmin>
+			<xmax>160</xmax>
+			<ymin>175</ymin>
+			<ymax>486</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>27</xmin>
+			<xmax>115</xmax>
+			<ymin>182</ymin>
+			<ymax>499</ymax>
+		</bndbox>
+	</object>
+</annotation>

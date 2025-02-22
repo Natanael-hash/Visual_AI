@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Garbage-Bins-_-Weber-_-Excel-2-_jpg.rf.5ad64e1e00836fbe4b2d2e671e3e7e61.jpg</filename>
+	<path>Garbage-Bins-_-Weber-_-Excel-2-_jpg.rf.5ad64e1e00836fbe4b2d2e671e3e7e61.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>80</xmin>
+			<xmax>594</xmax>
+			<ymin>120</ymin>
+			<ymax>628</ymax>
+		</bndbox>
+	</object>
+</annotation>

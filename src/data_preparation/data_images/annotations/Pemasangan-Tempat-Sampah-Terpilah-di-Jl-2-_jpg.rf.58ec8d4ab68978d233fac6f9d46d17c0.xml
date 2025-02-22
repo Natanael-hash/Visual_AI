@@ -1,0 +1,53 @@
+<annotation>
+	<folder></folder>
+	<filename>Pemasangan-Tempat-Sampah-Terpilah-di-Jl-2-_jpg.rf.58ec8d4ab68978d233fac6f9d46d17c0.jpg</filename>
+	<path>Pemasangan-Tempat-Sampah-Terpilah-di-Jl-2-_jpg.rf.58ec8d4ab68978d233fac6f9d46d17c0.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>391</xmin>
+			<xmax>505</xmax>
+			<ymin>237</ymin>
+			<ymax>414</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>272</xmin>
+			<xmax>391</xmax>
+			<ymin>236</ymin>
+			<ymax>422</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>115</xmin>
+			<xmax>260</xmax>
+			<ymin>230</ymin>
+			<ymax>433</ymax>
+		</bndbox>
+	</object>
+</annotation>

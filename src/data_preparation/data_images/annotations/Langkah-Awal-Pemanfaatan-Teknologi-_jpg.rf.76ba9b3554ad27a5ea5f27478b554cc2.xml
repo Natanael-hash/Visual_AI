@@ -1,0 +1,40 @@
+<annotation>
+	<folder></folder>
+	<filename>Langkah-Awal-Pemanfaatan-Teknologi-_jpg.rf.76ba9b3554ad27a5ea5f27478b554cc2.jpg</filename>
+	<path>Langkah-Awal-Pemanfaatan-Teknologi-_jpg.rf.76ba9b3554ad27a5ea5f27478b554cc2.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>261</xmin>
+			<xmax>324</xmax>
+			<ymin>4</ymin>
+			<ymax>157</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>329</xmin>
+			<xmax>398</xmax>
+			<ymin>6</ymin>
+			<ymax>171</ymax>
+		</bndbox>
+	</object>
+</annotation>

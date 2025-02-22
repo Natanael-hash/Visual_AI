@@ -1,0 +1,53 @@
+<annotation>
+	<folder></folder>
+	<filename>Rutan-Manado-Terima-6-Tong-Sampah-dari-_jpg.rf.0f8f255f61c2f653cb6b7c165f20fc75.jpg</filename>
+	<path>Rutan-Manado-Terima-6-Tong-Sampah-dari-_jpg.rf.0f8f255f61c2f653cb6b7c165f20fc75.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>458</xmin>
+			<xmax>640</xmax>
+			<ymin>360</ymin>
+			<ymax>640</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>232</xmin>
+			<xmax>467</xmax>
+			<ymin>346</ymin>
+			<ymax>640</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>8</xmin>
+			<xmax>237</xmax>
+			<ymin>325</ymin>
+			<ymax>641</ymax>
+		</bndbox>
+	</object>
+</annotation>

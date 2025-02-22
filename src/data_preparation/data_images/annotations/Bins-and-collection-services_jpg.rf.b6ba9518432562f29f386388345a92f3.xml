@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Bins-and-collection-services_jpg.rf.b6ba9518432562f29f386388345a92f3.jpg</filename>
+	<path>Bins-and-collection-services_jpg.rf.b6ba9518432562f29f386388345a92f3.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>305</xmin>
+			<xmax>467</xmax>
+			<ymin>214</ymin>
+			<ymax>568</ymax>
+		</bndbox>
+	</object>
+</annotation>

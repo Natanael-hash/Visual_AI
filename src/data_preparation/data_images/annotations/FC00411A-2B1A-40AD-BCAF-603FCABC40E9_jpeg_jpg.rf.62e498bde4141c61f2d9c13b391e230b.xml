@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>FC00411A-2B1A-40AD-BCAF-603FCABC40E9_jpeg_jpg.rf.62e498bde4141c61f2d9c13b391e230b.jpg</filename>
+	<path>FC00411A-2B1A-40AD-BCAF-603FCABC40E9_jpeg_jpg.rf.62e498bde4141c61f2d9c13b391e230b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>137</xmin>
+			<xmax>413</xmax>
+			<ymin>90</ymin>
+			<ymax>550</ymax>
+		</bndbox>
+	</object>
+</annotation>

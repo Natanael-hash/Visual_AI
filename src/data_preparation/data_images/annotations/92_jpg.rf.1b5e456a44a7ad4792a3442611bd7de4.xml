@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>92_jpg.rf.1b5e456a44a7ad4792a3442611bd7de4.jpg</filename>
+	<path>92_jpg.rf.1b5e456a44a7ad4792a3442611bd7de4.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>upstair</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>34</xmin>
+			<xmax>321</xmax>
+			<ymin>340</ymin>
+			<ymax>550</ymax>
+		</bndbox>
+	</object>
+</annotation>

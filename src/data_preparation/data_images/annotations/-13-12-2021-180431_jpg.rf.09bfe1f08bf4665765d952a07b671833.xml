@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>-13-12-2021-180431_jpg.rf.09bfe1f08bf4665765d952a07b671833.jpg</filename>
+	<path>-13-12-2021-180431_jpg.rf.09bfe1f08bf4665765d952a07b671833.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>traffic_sign</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>190</xmin>
+			<xmax>357</xmax>
+			<ymin>127</ymin>
+			<ymax>470</ymax>
+		</bndbox>
+	</object>
+</annotation>

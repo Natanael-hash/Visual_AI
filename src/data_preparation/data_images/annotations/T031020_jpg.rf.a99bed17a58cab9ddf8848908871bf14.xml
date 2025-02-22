@@ -1,0 +1,37 @@
+<annotation>
+	<folder></folder>
+	<filename>T031020_jpg.rf.a99bed17a58cab9ddf8848908871bf14.jpg</filename>
+	<path>T031020_jpg.rf.a99bed17a58cab9ddf8848908871bf14.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rail</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>349</xmin>
+			<xmax>641</xmax>
+			<ymin>113</ymin>
+			<ymax>639</ymax>
+		</bndbox>
+		<polygon>
+			<x1>639.030304</x1>
+			<y1>632.242423</y1>
+			<x2>640</x2>
+			<y2>111.515151</y2>
+			<x3>348.121212</x3>
+			<y3>638.060606</y3>
+			<x4>639.030304</x4>
+			<y4>632.242423</y4>
+		</polygon>
+	</object>
+</annotation>

@@ -1,0 +1,40 @@
+<annotation>
+	<folder></folder>
+	<filename>Tempat-Sampah-Fiber-Bulat-2-IN-1-80-_jpg.rf.446ebe6eb2523e2e543633643ff41fc9.jpg</filename>
+	<path>Tempat-Sampah-Fiber-Bulat-2-IN-1-80-_jpg.rf.446ebe6eb2523e2e543633643ff41fc9.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>90</xmin>
+			<xmax>216</xmax>
+			<ymin>169</ymin>
+			<ymax>551</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>214</xmin>
+			<xmax>347</xmax>
+			<ymin>176</ymin>
+			<ymax>549</ymax>
+		</bndbox>
+	</object>
+</annotation>

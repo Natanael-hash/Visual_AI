@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Orocan-Trash-Bin-Trash-Can-with-Wheels-_jpg.rf.554ea93e7c919b62eb4952c9ca32d023.jpg</filename>
+	<path>Orocan-Trash-Bin-Trash-Can-with-Wheels-_jpg.rf.554ea93e7c919b62eb4952c9ca32d023.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>137</xmin>
+			<xmax>511</xmax>
+			<ymin>91</ymin>
+			<ymax>619</ymax>
+		</bndbox>
+	</object>
+</annotation>

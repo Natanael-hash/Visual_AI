@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Tlight-94-_png_jpg.rf.7e10c098e04b420e14415786e0938a56.jpg</filename>
+	<path>Tlight-94-_png_jpg.rf.7e10c098e04b420e14415786e0938a56.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>traffic_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>225</xmin>
+			<xmax>470</xmax>
+			<ymin>7</ymin>
+			<ymax>377</ymax>
+		</bndbox>
+	</object>
+</annotation>

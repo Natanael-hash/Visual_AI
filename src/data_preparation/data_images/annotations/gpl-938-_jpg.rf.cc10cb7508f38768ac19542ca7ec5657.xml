@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>gpl-938-_jpg.rf.cc10cb7508f38768ac19542ca7ec5657.jpg</filename>
+	<path>gpl-938-_jpg.rf.cc10cb7508f38768ac19542ca7ec5657.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>green_pedestrian_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>233</xmin>
+			<xmax>326</xmax>
+			<ymin>350</ymin>
+			<ymax>490</ymax>
+		</bndbox>
+	</object>
+</annotation>

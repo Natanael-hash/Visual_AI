@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>IMG_4741_mp4-19_jpg.rf.14038eb2b5300688e9821fccbcc002be.jpg</filename>
+	<path>IMG_4741_mp4-19_jpg.rf.14038eb2b5300688e9821fccbcc002be.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>157</xmin>
+			<xmax>641</xmax>
+			<ymin>1</ymin>
+			<ymax>641</ymax>
+		</bndbox>
+	</object>
+</annotation>

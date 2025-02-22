@@ -118,11 +118,9 @@ def label_encoding(label):
         Returns -1 if the label is not found in the predefined dictionary.
     """
     labels = {
-        'person': 0, 'car': 1, 'chair': 2, 'bottle': 3, 'pottedplant': 4, 'bird': 5,
-        'dog': 6, 'sofa': 7, 'bicycle': 8, 'horse': 9, 'boat': 10, 'motorbike': 11,
-        'cat': 12, 'tvmonitor': 13, 'cow': 14, 'sheep': 15, 'aeroplane': 16,
-        'train': 17, 'diningtable': 18, 'bus': 19, 'cup': 20, 'truck': 21, 'carrot': 22,
-        'potato': 23, 'brocoli': 24, 'suitcase': 25, 'backpack': 26, 'tree': 27
+        'person': 0,'bicycle': 1, 'garbage container': 2, 'bus': 3, 'car': 4, 'train': 5, 'traffic_sign': 6,
+        'traffic_light ': 7, 'traffic cone': 8, 'rail': 9, 'pothole': 10, 'pole': 11, 'downstair': 12,
+        'upstair': 13, 'curb': 14, 'truck': 15, 'green_pedestrian_light': 16, 'red_pedestrian_light': 17
     }
     try:
         return labels[label]

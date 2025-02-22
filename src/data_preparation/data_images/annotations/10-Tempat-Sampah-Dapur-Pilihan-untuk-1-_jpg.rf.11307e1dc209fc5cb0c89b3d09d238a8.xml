@@ -1,0 +1,66 @@
+<annotation>
+	<folder></folder>
+	<filename>10-Tempat-Sampah-Dapur-Pilihan-untuk-1-_jpg.rf.11307e1dc209fc5cb0c89b3d09d238a8.jpg</filename>
+	<path>10-Tempat-Sampah-Dapur-Pilihan-untuk-1-_jpg.rf.11307e1dc209fc5cb0c89b3d09d238a8.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>9</xmin>
+			<xmax>220</xmax>
+			<ymin>62</ymin>
+			<ymax>347</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>181</xmin>
+			<xmax>367</xmax>
+			<ymin>77</ymin>
+			<ymax>377</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>284</xmin>
+			<xmax>513</xmax>
+			<ymin>110</ymin>
+			<ymax>392</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>462</xmin>
+			<xmax>641</xmax>
+			<ymin>150</ymin>
+			<ymax>422</ymax>
+		</bndbox>
+	</object>
+</annotation>

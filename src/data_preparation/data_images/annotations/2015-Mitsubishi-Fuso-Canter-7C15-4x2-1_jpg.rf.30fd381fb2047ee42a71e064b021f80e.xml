@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>2015-Mitsubishi-Fuso-Canter-7C15-4x2-1_jpg.rf.30fd381fb2047ee42a71e064b021f80e.jpg</filename>
+	<path>2015-Mitsubishi-Fuso-Canter-7C15-4x2-1_jpg.rf.30fd381fb2047ee42a71e064b021f80e.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>107</xmin>
+			<xmax>513</xmax>
+			<ymin>86</ymin>
+			<ymax>552</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>OIP-C-2-_jpg.rf.a862bdbc4220f34448d1ca8f2d2e1297.jpg</filename>
+	<path>OIP-C-2-_jpg.rf.a862bdbc4220f34448d1ca8f2d2e1297.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>train</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>125</xmin>
+			<xmax>729</xmax>
+			<ymin>142</ymin>
+			<ymax>723</ymax>
+		</bndbox>
+	</object>
+</annotation>

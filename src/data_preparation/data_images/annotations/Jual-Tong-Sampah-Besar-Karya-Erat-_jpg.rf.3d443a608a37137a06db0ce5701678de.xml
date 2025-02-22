@@ -1,0 +1,53 @@
+<annotation>
+	<folder></folder>
+	<filename>Jual-Tong-Sampah-Besar-Karya-Erat-_jpg.rf.3d443a608a37137a06db0ce5701678de.jpg</filename>
+	<path>Jual-Tong-Sampah-Besar-Karya-Erat-_jpg.rf.3d443a608a37137a06db0ce5701678de.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>13</xmin>
+			<xmax>233</xmax>
+			<ymin>144</ymin>
+			<ymax>410</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>222</xmin>
+			<xmax>423</xmax>
+			<ymin>141</ymin>
+			<ymax>414</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>415</xmin>
+			<xmax>629</xmax>
+			<ymin>133</ymin>
+			<ymax>421</ymax>
+		</bndbox>
+	</object>
+</annotation>

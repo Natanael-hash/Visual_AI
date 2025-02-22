@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>WIN_20240722_09_44_22_Pro_mp4-0012_jpg.rf.8430650e480a7b58a43da91b3b948676.jpg</filename>
+	<path>WIN_20240722_09_44_22_Pro_mp4-0012_jpg.rf.8430650e480a7b58a43da91b3b948676.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>traffic cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>123</xmin>
+			<xmax>287</xmax>
+			<ymin>2</ymin>
+			<ymax>630</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,79 @@
+<annotation>
+	<folder></folder>
+	<filename>Outdoor-Garbage-Bin-with-Wheels-240-_jpg.rf.8ef89bdc093f1ae50e5bc88a91ed9736.jpg</filename>
+	<path>Outdoor-Garbage-Bin-with-Wheels-240-_jpg.rf.8ef89bdc093f1ae50e5bc88a91ed9736.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>3</xmin>
+			<xmax>197</xmax>
+			<ymin>374</ymin>
+			<ymax>614</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>473</xmin>
+			<xmax>638</xmax>
+			<ymin>372</ymin>
+			<ymax>600</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>458</xmin>
+			<xmax>638</xmax>
+			<ymin>60</ymin>
+			<ymax>296</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>231</xmin>
+			<xmax>417</xmax>
+			<ymin>49</ymin>
+			<ymax>298</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>9</xmin>
+			<xmax>202</xmax>
+			<ymin>56</ymin>
+			<ymax>298</ymax>
+		</bndbox>
+	</object>
+</annotation>

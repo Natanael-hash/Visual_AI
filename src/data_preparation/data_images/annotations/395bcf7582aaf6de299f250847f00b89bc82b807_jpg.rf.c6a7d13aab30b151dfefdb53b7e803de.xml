@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>395bcf7582aaf6de299f250847f00b89bc82b807_jpg.rf.c6a7d13aab30b151dfefdb53b7e803de.jpg</filename>
+	<path>395bcf7582aaf6de299f250847f00b89bc82b807_jpg.rf.c6a7d13aab30b151dfefdb53b7e803de.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bicycle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>301</xmin>
+			<xmax>574</xmax>
+			<ymin>398</ymin>
+			<ymax>605</ymax>
+		</bndbox>
+	</object>
+</annotation>

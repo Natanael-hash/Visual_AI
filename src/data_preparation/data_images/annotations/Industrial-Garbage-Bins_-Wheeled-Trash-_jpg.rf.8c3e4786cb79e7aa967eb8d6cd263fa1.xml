@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Industrial-Garbage-Bins_-Wheeled-Trash-_jpg.rf.8c3e4786cb79e7aa967eb8d6cd263fa1.jpg</filename>
+	<path>Industrial-Garbage-Bins_-Wheeled-Trash-_jpg.rf.8c3e4786cb79e7aa967eb8d6cd263fa1.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>2</xmin>
+			<xmax>636</xmax>
+			<ymin>13</ymin>
+			<ymax>558</ymax>
+		</bndbox>
+	</object>
+</annotation>

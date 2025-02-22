@@ -1,0 +1,40 @@
+<annotation>
+	<folder></folder>
+	<filename>harga-tempat-sampah-bulat-_-Pabrik-_jpg.rf.288818d130b4f67612dba105901d905f.jpg</filename>
+	<path>harga-tempat-sampah-bulat-_-Pabrik-_jpg.rf.288818d130b4f67612dba105901d905f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>79</xmin>
+			<xmax>335</xmax>
+			<ymin>13</ymin>
+			<ymax>526</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>326</xmin>
+			<xmax>586</xmax>
+			<ymin>20</ymin>
+			<ymax>534</ymax>
+		</bndbox>
+	</object>
+</annotation>

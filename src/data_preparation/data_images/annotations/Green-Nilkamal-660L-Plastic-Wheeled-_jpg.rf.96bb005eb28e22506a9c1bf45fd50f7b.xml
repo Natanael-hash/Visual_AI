@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Green-Nilkamal-660L-Plastic-Wheeled-_jpg.rf.96bb005eb28e22506a9c1bf45fd50f7b.jpg</filename>
+	<path>Green-Nilkamal-660L-Plastic-Wheeled-_jpg.rf.96bb005eb28e22506a9c1bf45fd50f7b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>9</xmin>
+			<xmax>635</xmax>
+			<ymin>3</ymin>
+			<ymax>623</ymax>
+		</bndbox>
+	</object>
+</annotation>

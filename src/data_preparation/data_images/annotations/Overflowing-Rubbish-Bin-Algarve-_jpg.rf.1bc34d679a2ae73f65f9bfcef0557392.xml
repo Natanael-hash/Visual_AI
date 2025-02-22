@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Overflowing-Rubbish-Bin-Algarve-_jpg.rf.1bc34d679a2ae73f65f9bfcef0557392.jpg</filename>
+	<path>Overflowing-Rubbish-Bin-Algarve-_jpg.rf.1bc34d679a2ae73f65f9bfcef0557392.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>168</xmin>
+			<xmax>510</xmax>
+			<ymin>159</ymin>
+			<ymax>508</ymax>
+		</bndbox>
+	</object>
+</annotation>

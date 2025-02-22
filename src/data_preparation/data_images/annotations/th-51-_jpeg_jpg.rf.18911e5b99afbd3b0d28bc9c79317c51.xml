@@ -1,0 +1,79 @@
+<annotation>
+	<folder></folder>
+	<filename>th-51-_jpeg_jpg.rf.18911e5b99afbd3b0d28bc9c79317c51.jpg</filename>
+	<path>th-51-_jpeg_jpg.rf.18911e5b99afbd3b0d28bc9c79317c51.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>68</xmin>
+			<xmax>241</xmax>
+			<ymin>288</ymin>
+			<ymax>523</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>147</xmin>
+			<xmax>321</xmax>
+			<ymin>144</ymin>
+			<ymax>307</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>314</xmin>
+			<xmax>488</xmax>
+			<ymin>108</ymin>
+			<ymax>318</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>225</xmin>
+			<xmax>377</xmax>
+			<ymin>299</ymin>
+			<ymax>524</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>376</xmin>
+			<xmax>560</xmax>
+			<ymin>311</ymin>
+			<ymax>536</ymax>
+		</bndbox>
+	</object>
+</annotation>

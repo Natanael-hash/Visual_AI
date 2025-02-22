@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>sample-52av96o5-1-_jpg.rf.ade620777a245e4c90a480b96811eb60.jpg</filename>
+	<path>sample-52av96o5-1-_jpg.rf.ade620777a245e4c90a480b96811eb60.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>traffic cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>29</xmin>
+			<xmax>158</xmax>
+			<ymin>6</ymin>
+			<ymax>258</ymax>
+		</bndbox>
+	</object>
+</annotation>

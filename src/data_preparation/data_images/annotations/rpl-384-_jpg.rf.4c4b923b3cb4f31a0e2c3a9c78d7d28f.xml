@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>rpl-384-_jpg.rf.4c4b923b3cb4f31a0e2c3a9c78d7d28f.jpg</filename>
+	<path>rpl-384-_jpg.rf.4c4b923b3cb4f31a0e2c3a9c78d7d28f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_pedestrian_light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>268</xmin>
+			<xmax>384</xmax>
+			<ymin>146</ymin>
+			<ymax>271</ymax>
+		</bndbox>
+	</object>
+</annotation>

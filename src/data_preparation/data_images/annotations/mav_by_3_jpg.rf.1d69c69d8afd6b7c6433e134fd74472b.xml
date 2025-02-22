@@ -1,0 +1,14 @@
+<annotation>
+	<folder></folder>
+	<filename>mav_by_3_jpg.rf.1d69c69d8afd6b7c6433e134fd74472b.jpg</filename>
+	<path>mav_by_3_jpg.rf.1d69c69d8afd6b7c6433e134fd74472b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

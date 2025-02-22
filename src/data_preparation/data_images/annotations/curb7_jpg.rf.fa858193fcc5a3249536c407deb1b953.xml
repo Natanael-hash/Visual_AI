@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>curb7_jpg.rf.fa858193fcc5a3249536c407deb1b953.jpg</filename>
+	<path>curb7_jpg.rf.fa858193fcc5a3249536c407deb1b953.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>curb</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>56</xmin>
+			<xmax>641</xmax>
+			<ymin>1</ymin>
+			<ymax>201</ymax>
+		</bndbox>
+	</object>
+</annotation>

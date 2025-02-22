@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>2004-mitsubishi-fuso-fe639-flatbed-3_jpg.rf.33c08bcab0d8b3e2cc4c495b11648fb6.jpg</filename>
+	<path>2004-mitsubishi-fuso-fe639-flatbed-3_jpg.rf.33c08bcab0d8b3e2cc4c495b11648fb6.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>75</xmin>
+			<xmax>543</xmax>
+			<ymin>102</ymin>
+			<ymax>582</ymax>
+		</bndbox>
+	</object>
+</annotation>

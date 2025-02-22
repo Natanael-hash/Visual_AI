@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>notcone_png.rf.9200a8b69884c5ff4b258d7c830146a1.jpg</filename>
+	<path>notcone_png.rf.9200a8b69884c5ff4b258d7c830146a1.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>traffic cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>364</xmin>
+			<xmax>641</xmax>
+			<ymin>216</ymin>
+			<ymax>628</ymax>
+		</bndbox>
+	</object>
+</annotation>

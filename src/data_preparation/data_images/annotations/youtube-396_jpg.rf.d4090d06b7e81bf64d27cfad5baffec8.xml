@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>youtube-396_jpg.rf.d4090d06b7e81bf64d27cfad5baffec8.jpg</filename>
+	<path>youtube-396_jpg.rf.d4090d06b7e81bf64d27cfad5baffec8.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>240</xmin>
+			<xmax>430</xmax>
+			<ymin>99</ymin>
+			<ymax>641</ymax>
+		</bndbox>
+	</object>
+</annotation>

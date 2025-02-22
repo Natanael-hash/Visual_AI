@@ -1,0 +1,79 @@
+<annotation>
+	<folder></folder>
+	<filename>Bin-Service-Commercial-Properties_jpg.rf.7a222c963e91765f0ad195c47aa5bcc1.jpg</filename>
+	<path>Bin-Service-Commercial-Properties_jpg.rf.7a222c963e91765f0ad195c47aa5bcc1.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>67</xmin>
+			<xmax>161</xmax>
+			<ymin>124</ymin>
+			<ymax>385</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>148</xmin>
+			<xmax>250</xmax>
+			<ymin>119</ymin>
+			<ymax>392</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>235</xmin>
+			<xmax>355</xmax>
+			<ymin>110</ymin>
+			<ymax>393</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>331</xmin>
+			<xmax>459</xmax>
+			<ymin>96</ymin>
+			<ymax>409</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>garbage container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>447</xmin>
+			<xmax>589</xmax>
+			<ymin>97</ymin>
+			<ymax>394</ymax>
+		</bndbox>
+	</object>
+</annotation>

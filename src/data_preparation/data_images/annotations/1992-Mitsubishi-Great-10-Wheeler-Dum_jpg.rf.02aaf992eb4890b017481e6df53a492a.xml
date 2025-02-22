@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>1992-Mitsubishi-Great-10-Wheeler-Dum_jpg.rf.02aaf992eb4890b017481e6df53a492a.jpg</filename>
+	<path>1992-Mitsubishi-Great-10-Wheeler-Dum_jpg.rf.02aaf992eb4890b017481e6df53a492a.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>19</xmin>
+			<xmax>570</xmax>
+			<ymin>74</ymin>
+			<ymax>588</ymax>
+		</bndbox>
+	</object>
+</annotation>

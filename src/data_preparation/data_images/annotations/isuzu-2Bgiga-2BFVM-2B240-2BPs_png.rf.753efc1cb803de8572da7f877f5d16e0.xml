@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>isuzu-2Bgiga-2BFVM-2B240-2BPs_png.rf.753efc1cb803de8572da7f877f5d16e0.jpg</filename>
+	<path>isuzu-2Bgiga-2BFVM-2B240-2BPs_png.rf.753efc1cb803de8572da7f877f5d16e0.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>45</xmin>
+			<xmax>548</xmax>
+			<ymin>5</ymin>
+			<ymax>563</ymax>
+		</bndbox>
+	</object>
+</annotation>

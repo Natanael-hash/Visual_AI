@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>traffic-cone-jpg-51k0g649-ingestion-76cf76584b-zfcd5_jpg.rf.1a00210153925ad2d87504fcf00795db.jpg</filename>
+	<path>traffic-cone-jpg-51k0g649-ingestion-76cf76584b-zfcd5_jpg.rf.1a00210153925ad2d87504fcf00795db.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>traffic cone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>21</xmin>
+			<xmax>610</xmax>
+			<ymin>225</ymin>
+			<ymax>449</ymax>
+		</bndbox>
+	</object>
+</annotation>
