@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Turun-386-_JPG_jpg.rf.96dd13cdaba50811fc7178e5fadc8024.jpg</filename>
+	<path>Turun-386-_JPG_jpg.rf.96dd13cdaba50811fc7178e5fadc8024.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>downstair</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>86</xmin>
+			<xmax>407</xmax>
+			<ymin>486</ymin>
+			<ymax>630</ymax>
+		</bndbox>
+	</object>
+</annotation>

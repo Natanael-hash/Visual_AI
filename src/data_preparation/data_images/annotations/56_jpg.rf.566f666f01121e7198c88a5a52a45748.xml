@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>56_jpg.rf.566f666f01121e7198c88a5a52a45748.jpg</filename>
+	<path>56_jpg.rf.566f666f01121e7198c88a5a52a45748.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crosswalk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>5</xmin>
+			<xmax>606</xmax>
+			<ymin>5</ymin>
+			<ymax>641</ymax>
+		</bndbox>
+	</object>
+</annotation>

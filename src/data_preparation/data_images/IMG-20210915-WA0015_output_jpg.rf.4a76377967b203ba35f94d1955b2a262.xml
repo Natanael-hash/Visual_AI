@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>IMG-20210915-WA0015_output_jpg.rf.4a76377967b203ba35f94d1955b2a262.jpg</filename>
+	<path>IMG-20210915-WA0015_output_jpg.rf.4a76377967b203ba35f94d1955b2a262.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>downstair</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>46</xmin>
+			<xmax>566</xmax>
+			<ymin>333</ymin>
+			<ymax>572</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>gpl-629-_augmented_5_jpg.rf.094f63be73187280cab83137373823e9.jpg</filename>
+	<path>gpl-629-_augmented_5_jpg.rf.094f63be73187280cab83137373823e9.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>green-light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>98</xmin>
+			<xmax>536</xmax>
+			<ymin>61</ymin>
+			<ymax>568</ymax>
+		</bndbox>
+	</object>
+</annotation>

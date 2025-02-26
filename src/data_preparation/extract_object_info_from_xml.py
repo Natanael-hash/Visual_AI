@@ -119,8 +119,9 @@ def label_encoding(label):
     """
     labels = {
         'person': 0,'bicycle': 1, 'garbage container': 2, 'bus': 3, 'car': 4, 'train': 5, 'traffic_sign': 6,
-        'traffic_light ': 7, 'traffic cone': 8, 'rail': 9, 'pothole': 10, 'pole': 11, 'downstair': 12,
-        'upstair': 13, 'curb': 14, 'truck': 15, 'green_pedestrian_light': 16, 'red_pedestrian_light': 17
+        'traffic cone': 7, 'rail': 8, 'pothole': 9, 'pole': 10, 'downstair': 11,
+        'upstair': 12, 'curb': 13, 'truck': 14, 'green-light': 15, 'red-light': 16,
+        'crosswalk-sign': 17, 'crosswalk': 18
     }
     try:
         return labels[label]

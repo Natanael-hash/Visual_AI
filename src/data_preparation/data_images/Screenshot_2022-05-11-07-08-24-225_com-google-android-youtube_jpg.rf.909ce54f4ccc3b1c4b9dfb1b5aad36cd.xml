@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Screenshot_2022-05-11-07-08-24-225_com-google-android-youtube_jpg.rf.909ce54f4ccc3b1c4b9dfb1b5aad36cd.jpg</filename>
+	<path>Screenshot_2022-05-11-07-08-24-225_com-google-android-youtube_jpg.rf.909ce54f4ccc3b1c4b9dfb1b5aad36cd.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>downstair</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>227</xmin>
+			<xmax>562</xmax>
+			<ymin>77</ymin>
+			<ymax>602</ymax>
+		</bndbox>
+	</object>
+</annotation>

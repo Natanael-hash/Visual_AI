@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>rpl-327-_augmented_3_jpg.rf.2ee4b481ec03a3f1574d915a14fe59e9.jpg</filename>
+	<path>rpl-327-_augmented_3_jpg.rf.2ee4b481ec03a3f1574d915a14fe59e9.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red-light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>93</xmin>
+			<xmax>533</xmax>
+			<ymin>61</ymin>
+			<ymax>566</ymax>
+		</bndbox>
+	</object>
+</annotation>

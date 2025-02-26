@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>road123_png.rf.e367c8a5d142caa3c351fc90e1cc6c2c.jpg</filename>
+	<path>road123_png.rf.e367c8a5d142caa3c351fc90e1cc6c2c.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>483</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crosswalk-sign</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>211</xmin>
+			<xmax>465</xmax>
+			<ymin>81</ymin>
+			<ymax>343</ymax>
+		</bndbox>
+	</object>
+</annotation>

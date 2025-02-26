@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>189_jpg.rf.5000fb3c4c4615be2aeb4c8ab69f3f1e.jpg</filename>
+	<path>189_jpg.rf.5000fb3c4c4615be2aeb4c8ab69f3f1e.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crosswalk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>32</xmin>
+			<xmax>625</xmax>
+			<ymin>197</ymin>
+			<ymax>450</ymax>
+		</bndbox>
+	</object>
+</annotation>

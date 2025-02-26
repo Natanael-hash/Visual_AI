@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>rpl-114-_jpg.rf.2b9d5d2d0554a8d85bfdd05d4ec7a975.jpg</filename>
+	<path>rpl-114-_jpg.rf.2b9d5d2d0554a8d85bfdd05d4ec7a975.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red-light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>315</xmin>
+			<xmax>398</xmax>
+			<ymin>274</ymin>
+			<ymax>387</ymax>
+		</bndbox>
+	</object>
+</annotation>

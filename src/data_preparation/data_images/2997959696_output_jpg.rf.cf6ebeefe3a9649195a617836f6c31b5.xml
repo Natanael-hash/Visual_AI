@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>2997959696_output_jpg.rf.cf6ebeefe3a9649195a617836f6c31b5.jpg</filename>
+	<path>2997959696_output_jpg.rf.cf6ebeefe3a9649195a617836f6c31b5.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>downstair</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>161</xmin>
+			<xmax>437</xmax>
+			<ymin>271</ymin>
+			<ymax>564</ymax>
+		</bndbox>
+	</object>
+</annotation>

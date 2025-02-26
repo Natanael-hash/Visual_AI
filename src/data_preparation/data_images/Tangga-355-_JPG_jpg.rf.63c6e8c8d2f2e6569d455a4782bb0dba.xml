@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Tangga-355-_JPG_jpg.rf.63c6e8c8d2f2e6569d455a4782bb0dba.jpg</filename>
+	<path>Tangga-355-_JPG_jpg.rf.63c6e8c8d2f2e6569d455a4782bb0dba.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>upstair</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>131</xmin>
+			<xmax>277</xmax>
+			<ymin>52</ymin>
+			<ymax>241</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,14 +1,14 @@
-train: data_images/train
-val: data_images/test
-nc: 18
+train: /content/drive/MyDrive/datasets/data_images/train
+val: /content/drive/MyDrive/datasets/data_images/test
+nc: 19
 names: ['person',
-        'bicycle'
+        'bicycle',
+        'garbage container',
         'car',
         'bus',
         'train',
         'traffic_sign',
-        'traffic_light',
-        'traffic cone'
+        'traffic cone',
         'rail',
         'pothole',
         'pole',
@@ -16,7 +16,8 @@ names: ['person',
         'upstair',
         'curb',
         'truck',
-        'green_pedestrian_light',
-        'red_pedestrian_light',
-        'garbage container'
+        'green-light',
+        'red-light',
+        'crosswalk-sign',
+        'crosswalk'
 ]

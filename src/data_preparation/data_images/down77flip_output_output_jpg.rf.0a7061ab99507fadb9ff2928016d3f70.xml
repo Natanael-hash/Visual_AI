@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>down77flip_output_output_jpg.rf.0a7061ab99507fadb9ff2928016d3f70.jpg</filename>
+	<path>down77flip_output_output_jpg.rf.0a7061ab99507fadb9ff2928016d3f70.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>downstair</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>59</xmin>
+			<xmax>545</xmax>
+			<ymin>257</ymin>
+			<ymax>551</ymax>
+		</bndbox>
+	</object>
+</annotation>

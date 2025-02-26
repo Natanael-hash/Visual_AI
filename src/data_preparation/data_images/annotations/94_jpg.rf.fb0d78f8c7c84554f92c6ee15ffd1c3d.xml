@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>94_jpg.rf.fb0d78f8c7c84554f92c6ee15ffd1c3d.jpg</filename>
+	<path>94_jpg.rf.fb0d78f8c7c84554f92c6ee15ffd1c3d.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crosswalk-sign</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>2</xmin>
+			<xmax>641</xmax>
+			<ymin>1</ymin>
+			<ymax>639</ymax>
+		</bndbox>
+	</object>
+</annotation>
