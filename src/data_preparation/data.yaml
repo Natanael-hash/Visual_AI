@@ -1,5 +1,5 @@
-train: /content/drive/MyDrive/datasets/data_images/train
-val: /content/drive/MyDrive/datasets/data_images/test
+train: /Users/natanaelhordon/Desktop/Visual-AI/src/data_preparation/data_images/train
+val: /Users/natanaelhordon/Desktop/Visual-AI/src/data_preparation/data_images/test
 nc: 19
 names: ['person',
         'bicycle',

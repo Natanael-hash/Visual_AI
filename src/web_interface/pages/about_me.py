@@ -21,7 +21,7 @@ def show_about_page():
             ✅ Integrare cu **Apple Maps** pentru ghidare către stații de autobuz, magazine etc.  
             """,
             "contact": "📩 Contact",
-            "email": "Email: natanael.hordon@example.com",
+            "email": "Email: natanael.hordon@icloud.com",
         },
         "English": {
             "title": "👤 About Me",
