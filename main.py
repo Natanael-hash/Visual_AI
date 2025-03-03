@@ -1,6 +1,5 @@
-from ultralytics import YOLO
+from src.data_prediction.yolo_predictions import ObjectDetection
 
-model = YOLO("best.pt")
 
-model.predict("src/data_prediction/video.mp4", save=True, imgsz=640, conf=0.5, device="mps", show=True)
-
+detector = ObjectDetection(capture_index=0, data_yaml='/Users/natanaelhordon/Desktop/Visual-AI/src/data_preparation/data.yaml')
+detector()

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>i-1-90357257-hereand8217s-why-the-mayor-of-milan-is-planting-three-million-trees-in-his-city_jpg.rf.2e61b1d7f64a9b12041b8dc87b436455.jpg</filename>
+	<path>i-1-90357257-hereand8217s-why-the-mayor-of-milan-is-planting-three-million-trees-in-his-city_jpg.rf.2e61b1d7f64a9b12041b8dc87b436455.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Tree</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>355</xmin>
+			<xmax>590</xmax>
+			<ymin>2</ymin>
+			<ymax>593</ymax>
+		</bndbox>
+	</object>
+</annotation>

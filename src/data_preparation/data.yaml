@@ -1,6 +1,6 @@
-train: /Users/natanaelhordon/Desktop/Visual-AI/src/data_preparation/data_images/train
-val: /Users/natanaelhordon/Desktop/Visual-AI/src/data_preparation/data_images/test
-nc: 19
+train: data_images/train
+val: data_images/test
+nc: 36
 names: ['person',
         'bicycle',
         'garbage container',
@@ -19,5 +19,22 @@ names: ['person',
         'green-light',
         'red-light',
         'crosswalk-sign',
-        'crosswalk'
+        'crosswalk',
+        'chair',
+        'bottle',
+        'pottedplant',
+        'bird',
+        'dog',
+        'sofa',
+        'horse',
+        'boat',
+        'motorbike',
+        'cat',
+        'tvmonitor',
+        'cow',
+        'sheep',
+        'aeroplane',
+        'diningtable',
+        'Tree',
+        'Ponds'
 ]

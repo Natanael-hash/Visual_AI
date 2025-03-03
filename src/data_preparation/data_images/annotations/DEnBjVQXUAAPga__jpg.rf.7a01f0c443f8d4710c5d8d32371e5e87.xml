@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>DEnBjVQXUAAPga__jpg.rf.7a01f0c443f8d4710c5d8d32371e5e87.jpg</filename>
+	<path>DEnBjVQXUAAPga__jpg.rf.7a01f0c443f8d4710c5d8d32371e5e87.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Tree</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>641</xmax>
+			<ymin>42</ymin>
+			<ymax>518</ymax>
+		</bndbox>
+	</object>
+</annotation>

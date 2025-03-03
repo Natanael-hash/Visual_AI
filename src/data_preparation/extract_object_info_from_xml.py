@@ -121,7 +121,10 @@ def label_encoding(label):
         'person': 0,'bicycle': 1, 'garbage container': 2, 'bus': 3, 'car': 4, 'train': 5, 'traffic_sign': 6,
         'traffic cone': 7, 'rail': 8, 'pothole': 9, 'pole': 10, 'downstair': 11,
         'upstair': 12, 'curb': 13, 'truck': 14, 'green-light': 15, 'red-light': 16,
-        'crosswalk-sign': 17, 'crosswalk': 18
+        'crosswalk-sign': 17, 'crosswalk': 18, 'chair': 19, 'bottle': 20, 'pottedplant': 21,
+        'bird': 22, 'dog': 23 ,'sofa': 24 ,'horse': 25, 'boat': 26, 'motorbike': 27,
+        'cat': 28, 'tvmonitor': 29, 'cow': 30, 'sheep': 31, 'aeroplane': 32, 'diningtable': 33,
+        'Tree': 34, 'Ponds': 35
     }
     try:
         return labels[label]
@@ -260,8 +263,8 @@ try:
 except Exception as e:
     logging.error(f"Error during label encoding: {e}")
 
-train_folder = "data_images/train"
-test_folder = "data_images/test"
+train_folder = "data_images/train1"
+test_folder = "data_images/test1"
 
 for folder in [train_folder, test_folder]:
     try:

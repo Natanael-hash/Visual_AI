@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>171_jpg.rf.ff19540a1d8e59163a142b364fc39bbc.jpg</filename>
+	<path>171_jpg.rf.ff19540a1d8e59163a142b364fc39bbc.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>376</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crosswalk-sign</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>433</xmin>
+			<xmax>470</xmax>
+			<ymin>52</ymin>
+			<ymax>90</ymax>
+		</bndbox>
+	</object>
+</annotation>
