@@ -1,6 +1,8 @@
 import streamlit as st
 from pages import about_me
 from pages import login_page
+from pages import sign_up
+from pages import forgot_password
 
 # st.markdown("""
 #     <style>
@@ -68,7 +70,7 @@ translations = {
 
         ## 🛠️ Funcționalități Principale  
         - **🔹 Detecția Obiectelor (Object Detection)**  
-          - Model **YOLOv8** antrenat pe un dataset personalizat cu **26.000+ imagini** și **28 de clase**.  
+          - Model **YOLOv8** antrenat pe un dataset personalizat cu **30.000+ imagini** și **36 de clase**.  
           - Feedback audio instantaneu pentru recunoaștere rapidă.  
           - Adaptabilitate pentru diferite medii (exterior, interior, spații aglomerate).  
 
@@ -122,7 +124,7 @@ translations = {
 
         ## 🛠️ Key Features  
         - **🔹 Object Detection**  
-          - **YOLOv8 model** trained on a custom dataset with **26,000+ images** and **28 object classes**.  
+          - **YOLOv8 model** trained on a custom dataset with **30,000+ images** and **36 object classes**.  
           - Instant audio feedback for real-time object recognition.  
           - Adaptability for different environments (outdoor, indoor, crowded spaces).  
 
@@ -177,18 +179,31 @@ language = st.sidebar.selectbox(
 st.session_state.language = language
 t = translations[language]
 
+
+if "page" not in st.session_state:
+    st.session_state.page = "home"
+
 st.sidebar.title("🔎 Navigare")
-page = st.sidebar.radio("", [t["home_title"], t["about"], t["login"]])
+nav_options = [t["home_title"], t["about"], t["login"]]
+page = st.sidebar.radio("", nav_options)
 
 if st.sidebar.button(t["contrast_button"]):
     st.session_state.high_contrast = not st.session_state.high_contrast
     apply_styles()
     st.rerun()
 
-if page == t["home_title"]:
-    st.title(t["welcome_message"])
-    st.markdown(t["app_description"])
-elif page == t["about"]:
-    about_me.show_about_page()
-elif page == t["login"]:
-    login_page.show_login_page()
+if st.session_state.page == "signup":
+    sign_up.show_signup_page()
+elif st.session_state.page == "forgot_password":
+    forgot_password.show_forgot_password_page()
+else:
+    if page == t["home_title"]:
+        st.session_state.page = "home"
+        st.title(t["welcome_message"])
+        st.markdown(t["app_description"])
+    elif page == t["about"]:
+        st.session_state.page = "about"
+        about_me.show_about_page()
+    elif page == t["login"]:
+        st.session_state.page = "login"
+        login_page.show_login_page()

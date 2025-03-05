@@ -49,3 +49,4 @@ def show_signup_page():
 
     if st.button(t[language]["already_have_account"]):
         st.session_state.page = "login"
+        st.rerun()

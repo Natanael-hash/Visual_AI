@@ -43,7 +43,9 @@ def show_login_page():
     col1, col2 = st.columns(2)
     with col1:
         if st.button(t[language]["forgot_password"]):
-            st.info("📧 Un email de recuperare a fost trimis (simulat).")
+            st.session_state.page = "forgot_password"
+            st.rerun()
     with col2:
         if st.button(t[language]["create_account"]):
-            st.info("🚀 Funcția de înregistrare va fi disponibilă în curând!")
+            st.session_state.page = "signup"
+            st.rerun()

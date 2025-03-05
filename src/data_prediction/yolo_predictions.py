@@ -36,7 +36,7 @@ class ObjectDetection:
         for result in results:
             boxes = result.boxes.cpu().numpy()
             for box in boxes:
-                x1, y1, x2, y2 = map(int, box.xyxy[0])
+                x1, y1, x2, y2 = map(int, box.xyxys[0])
                 confidence = box.conf[0]
                 class_id = int(box.cls[0])
                 self.colors = self.generate_colors(class_id)
