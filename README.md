@@ -2,6 +2,8 @@
 
 An AI-driven application designed to assist visually impaired individuals in navigating their surroundings. The app leverages real-time image recognition to enhance accessibility and independence.
 
+![Visual-AI – The augmented eye symbolizes the power of artificial intelligence to perceive and interpret the surrounding environment, providing advanced visual assistance for visually impaired individuals. 🚀](src/web_interface/assets/Visual-AI.png)
+
 ## Features
 
 - **Real-Time Image Recognition**: Uses AI to identify objects and obstacles in the user's environment.
