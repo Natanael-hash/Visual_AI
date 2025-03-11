@@ -13,7 +13,8 @@ class ObjectDetection:
         self.model = self.load_model()
 
 
-    def load_model(self):
+    @staticmethod
+    def load_model():
         model = YOLO("/Users/natanaelhordon/Desktop/Visual-AI/src/data_prediction/train7/weights/best.pt")
         model.fuse()
         return model
@@ -22,7 +23,8 @@ class ObjectDetection:
         results = self.model(frame)
         return results
 
-    def plot_bboxes(self, results, frame):
+    @staticmethod
+    def plot_bboxes(results):
         xyxys = []
         confidences = []
         class_ids = []
@@ -46,7 +48,7 @@ class ObjectDetection:
 
             start_time = time()
             results = self.predict(frame)
-            frame, _,_,_ = self.plot_bboxes(results, frame)
+            frame, _,_,_ = self.plot_bboxes(results)
             end_time = time()
 
             fps = 1 / (end_time - start_time)
